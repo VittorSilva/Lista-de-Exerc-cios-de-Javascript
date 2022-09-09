@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Criar uma função, que seja acionada por um botão, exibam todos os números ímpares, de 10 até 100.</h1>
+    <button onclick="showOddNumbers()">Mostrar números</button>
+    <script>
+        function showOddNumbers()
+        {
+            for(i = 10; i <= 100; i++)
+            {
+                if(i % 2 != 0)
+                {
+                    document.write("<br>" + i);
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>
